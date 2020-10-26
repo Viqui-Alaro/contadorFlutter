@@ -13,7 +13,13 @@ class HomePage extends StatelessWidget{
         elevation: 5.5,
       ),
       body: Center(
-        child: Text('Hola Mundo Viqui')
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: <Widget>[
+            Text('Número de clicks:',style: TextStyle(fontSize: 25),),
+            Text('0',style: TextStyle(fontSize: 25),),
+          ],
+        )
       ),
     );
   }
