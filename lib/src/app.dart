@@ -1,18 +1,14 @@
-
 import 'package:flutter/material.dart';
 
 import 'package:contador/src/pages/home_page.dart';
 
-
-class MyApp extends StatelessWidget{
-
+class MyApp extends StatelessWidget {
   @override
-  Widget build( context ){
-
+  Widget build(context) {
     return MaterialApp(
-      home: Center(child: HomePage() ,)
-      ,
+      home: Center(
+        child: HomePage(),
+      ),
     );
   }
-
 }
